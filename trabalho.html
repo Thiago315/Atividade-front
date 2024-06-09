@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </nav>
+        <div class="main-content">
+            <section id="home" class="section home">
+                <div class="overlay">
+                    <h1>WELCOME</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi accusantium voluptatum saepe. Natus nihil, facere corporis numquam, architecto dolorum.</p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </section>
+            <section id="photos" class="section photos">
+                <div class="photo-grid">
+                    <img src="https://source.unsplash.com/random" alt="Photo 1">
+                    <img src="https://source.unsplash.com/random" alt="Photo 2">
+                    <img src="https://source.unsplash.com/random" alt="Photo 3">
+                    <img src="https://source.unsplash.com/random" alt="Photo 4">
+                    <img src="https://source.unsplash.com/random" alt="Photo 5">
+                    <img src="https://source.unsplash.com/random" alt="Photo 6">
+                </div>
+            </section>
+            <section id="biography" class="section biography">
+                <h1>Biography</h1>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://source.unsplash.com/random" alt="Photo 6">
+                            <p>JOAO</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+                            <h4>- Testimonial 1</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://source.unsplash.com/random" alt="Photo 6">
+                            <p>Thiago</p>
+                            <p>"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</p>
+                            <h4>- Testimonial 2</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://source.unsplash.com/random" alt="Photo 6">
+                            <p>Arthur</p>
+                            <p>"Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            <h4>- Testimonial 3</h4>
+                        </div>
+                    </div>
+                    <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </section>
+            <section id="extend-biography" class="section extend-biography">
+              <div class="container">
+                  <div class="row justify-content-center">
+                      <div class="col-md-8">
+                          <h2 class="heading text-uppercase text-white">Biography</h2>
+                          <figure class="mb-5 aos-init aos-animate" data-aos="fade-up">
+                              <img src="https://source.unsplash.com/random" alt="Image" class="img-fluid w-50 rounded">
+                          </figure>
+                          <div data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                              <h2 class="text-white">Hi I'm Jed</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aperiam a velit. Harum eligendi quod reiciendis quos ullam libero est dolor, <a href="#">corporis dolores assumenda</a>, delectus, quidem voluptatibus dolorum temporibus enim!</p>
+                              <p>Neque facilis soluta, accusantium quaerat, adipisci porro animi, hic fugiat id vero placeat dolorem accusamus sapiente odio consequatur debitis beatae eius quos alias. In recusandae magnam quis ipsum, asperiores mollitia!</p>
+                              <h3 class="text-white mt-5">Photographer for 10 years</h3>
+                              <p>Tempore repudiandae <a href="#">rerum numquam iste</a>, quibusdam omnis voluptates quaerat veniam neque odit sit vel dolores. Optio eveniet ex laborum similique inventore sapiente tenetur. Ipsam aliquam esse voluptate qui reiciendis. Harum.</p>
+                              <div class="d-block d-md-flex mt-5">
+                                  <div class="mr-md-auto mr-2">
+                                      <ul class="ul-check list-unstyled success">
+                                          <li>Optio eveniet ex laborum</li>
+                                          <li>Inventore sapiente tenetur</li>
+                                          <li>Ipsam aliquam esse</li>
+                                      </ul>
+                                  </div>
+                                  <div class="mr-md-auto">
+                                      <ul class="ul-check list-unstyled success">
+                                          <li>Optio eveniet ex laborum</li>
+                                          <li>Inventore sapiente tenetur</li>
+                                          <li>Ipsam aliquam esse</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          
+          <section id="blog" class="section blog">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="heading text-uppercase text-white">Blog</h2>
+                    
+                    <div class="blog-entry mb-4 aos-init aos-animate" data-aos="fade-up">
+                      <div class="blog-content d-flex">
+                          <div class="img-wrap mr-3">
+                              <a href="single.html"><img src="https://source.unsplash.com/random" alt="Image" class="img-fluid" style="max-width: 200px;"></a>
+                          </div>
+                          <div>
+                              <h2 class="mt-0 mb-2"><a href="single.html">My New Photography Has Been Featured in Forbes</a></h2>
+                              <div class="meta mb-3">Posted by Ben Jones on <a href="#">Jan 18, 2019</a></div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquid doloremque qui, saepe alias eum?</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="blog-entry mb-4 aos-init aos-animate" data-aos="fade-up">
+                      <div class="blog-content d-flex">
+                          <div class="img-wrap mr-3">
+                              <a href="single.html"><img src="https://source.unsplash.com/random" alt="Image" class="img-fluid" style="max-width: 200px;"></a>
+                          </div>
+                          <div>
+                              <h2 class="mt-0 mb-2"><a href="single.html">My New Photography Has Been Featured in Forbes</a></h2>
+                              <div class="meta mb-3">Posted by Ben Jones on <a href="#">Jan 18, 2019</a></div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquid doloremque qui, saepe alias eum?</p>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="blog-entry mb-4 aos-init aos-animate" data-aos="fade-up">
+                      <div class="blog-content d-flex">
+                          <div class="img-wrap mr-3">
+                              <a href="single.html"><img src="https://source.unsplash.com/random" alt="Image" class="img-fluid" style="max-width: 200px;"></a>
+                          </div>
+                          <div>
+                              <h2 class="mt-0 mb-2"><a href="single.html">My New Photography Has Been Featured in Forbes</a></h2>
+                              <div class="meta mb-3">Posted by Ben Jones on <a href="#">Jan 18, 2019</a></div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquid doloremque qui, saepe alias eum?</p>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="row justify-content-center">
+                      <div class="col-md-8 text-center">
+                          <div class="custom-pagination">
+                              <span>1</span>
+                              <a href="#">2</a>
+                              <a href="#">3</a>
+                              <span>...</span>
+                              <a href="#">7</a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+            <section id="contact" class="section contact">
+                <h1>Contact</h1>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
